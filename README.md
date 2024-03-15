@@ -1,41 +1,57 @@
-<h1 align=center>E-Commerce Website with Django + React & Redux</h1>
-<h2 align=center>Otaku House - Anime Merchandise and Cosplay Shop</h2>
+E-Commerce Website with Django + React & Redux
+Welcome to the E-Commerce Website project! This repository contains a fully functional e-commerce platform built using Django, React, and Redux. Below are the instructions on how to run the project and a brief overview of its features.
 
-## ✨ [Live Link - Otaku House](https://otakuhouse.herokuapp.com/)
+How to Run 🏃‍♀️
+To run the project locally, follow these steps:
 
-### How to Run 🏃‍♀️
+Clone this repository using the command:
 
-```shell
-1 Clone This Repo by `git clone https://github.com/kritebh/ecommerce-django-react.git`
-2 python -m venv env
-3 .\env\Scripts\activate
-4 pip install -r requirements.txt 
-5 python manage.py runserver
+shell
+Copy code
+git clone https://github.com/kritebh/ecommerce-django-react.git
+Create a virtual environment using Python's venv module:
 
-```
+shell
+Copy code
+python -m venv env
+Activate the virtual environment:
 
-### 📷 Project Screenshots
+For Windows:
+shell
+Copy code
+.\env\Scripts\activate
+For macOS/Linux:
+shell
+Copy code
+source env/bin/activate
+Install the required Python packages from the requirements.txt file:
 
-![ss](./ss/ss1.png)
-![ss](./ss/ss2.png)
-![ss](./ss/ss3.png)
-![ss](./ss/ss4.png)
-![ss](./ss/ss5.png)
-![ss](./ss/ss6.png)
+shell
+Copy code
+pip install -r requirements.txt 
+Finally, run the Django server:
 
-### 🚀 Project Features
+shell
+Copy code
+python manage.py runserver
+🚀 Project Features
+This e-commerce platform offers a wide range of features to enhance the shopping experience for both customers and administrators. Some of the key features include:
 
-A completely customized eCommerce / shopping cart application using Django, REACT and REDUX with the following functionality:
+Full Featured Shopping Cart: Users can add products to their cart, update quantities, and remove items as needed.
+Product Reviews and Ratings: Customers can leave reviews and ratings for products they have purchased.
+Top Products Carousel: Showcase top-selling products in a visually appealing carousel format.
+Product Pagination: Paginate product listings for improved navigation.
+Product Search Feature: Allow users to search for products based on keywords.
+User Profile with Orders: Registered users have access to their profile where they can view order history and update account information.
+Admin Product Management: Administrators can manage products, including adding, editing, and deleting products.
+Admin User Management: Admins have the ability to manage user accounts, including creating, editing, and deleting users.
+Admin Order Management: Detailed order management system for administrators to track and manage orders.
+Mark Orders as Delivered: Admins can mark orders as delivered to keep track of order fulfillment status.
+Checkout Process: Seamless checkout process with options for shipping, payment method selection, and order summary.
+PayPal / Credit Card Integration: Integration with PayPal and credit card payment processing for secure transactions.
+This project provides a comprehensive solution for building and managing an e-commerce platform with ease. Whether you're a customer looking to shop online or an administrator managing the store, this platform has everything you need to succeed in the world of e-commerce.
 
-- Full featured shopping cart
-- Product reviews and Ratings
-- Top products carousel
-- Product pagination
-- Product search feature
-- User profile with orders
-- Admin product management
-- Admin user management
-- Admin Order details page
-- Mark orders as a delivered option
-- Checkout process (shipping, payment method, etc)
-- PayPal / credit card integration
+
+
+
+
