@@ -8,7 +8,7 @@ Clone this repository using the command:
 
 shell
 Copy code
-git clone https://github.com/kritebh/ecommerce-django-react.git
+git clone https://github.com/maxwellharon/cuddly-broccoli.git
 Create a virtual environment using Python's venv module:
 
 shell
